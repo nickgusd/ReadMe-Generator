@@ -1,25 +1,26 @@
-{
-
-"username": "Nickgusd",
-
-"email": "nick.guimarais@gmail.com",
-
-"Project name": "ReadMe Generator",
-
-"Project description": "This is to generate ReadMe files",
-
-"stack": [
-
-
-"MIT"
-
-],
-
-"Dependency-Command": "npm install",
-
-"Test-command": "node index.js",
-
-"Repo": "nothing",
-
-"Contribution": "everything"
-}
+# Title:
+nickgusd
+    
+## email:
+nick.guimarais@gmail.com
+    
+### Project:
+Nick's ReadMe
+    
+### Description:
+This is a readme gen
+    
+#### License:
+MIT
+    
+#### Dependencies:
+npm i
+    
+##### Tests:
+npm run
+    
+##### Repository:
+everything
+    
+###### Contributing:
+nothing
