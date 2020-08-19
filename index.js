@@ -1,9 +1,7 @@
 const fs = require("fs");
-// const axios = require("axios");
-const inquirer = require("inquirer");
-// const generateMarkdown = require("./util/generateMarkdown");
 
-// var generate = require("util");
+const inquirer = require("inquirer");
+
 
 
 inquirer.prompt([
@@ -87,11 +85,11 @@ inquirer.prompt([
     \n\n* [Contributing](#contributing)
     \n\n* [Tests](#tests)
     \n\n* [Questions](#questions)
-    \n## Installation:\n\n${data.dependencies}
+    \n## Installation:\n\nTo install necessary dependencies, run the following command:\n\n${data.dependencies}
     \n## Usage:\n\n${data.repo}
     \n## License:\n\n This project is licensed under the ${data.license} license
     \n## Contributing:\n\n${data.contribution}
-    \n## Tests:\n\n${data.tests}
+    \n## Tests:\n\nTo run tests, run the following command\n\n${data.tests}
     \n## Questions\n\nUsername: ${data.username}\n\nhttps://github.com/${data.username}\n\nIf you have any additional questions please reach out to me at ${data.email} 
     `, function(err) {
   
@@ -106,17 +104,3 @@ inquirer.prompt([
   });
 
 
-
-// // function to write README file
-// function writeToFile(fileName, data) {
-
-
-// }
-
-// // function to initialize program
-// function init() {
-//     // console.log("node index.js")
-// }
-
-// // function call to initialize program
-// init();
