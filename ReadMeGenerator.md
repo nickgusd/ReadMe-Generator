@@ -1,6 +1,6 @@
 # README Generator
 
-My application generated README files for using a repository with node.js. 
+My application generates README files for using a repository with node.js. 
 
 ## Description
 
