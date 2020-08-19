@@ -3,7 +3,7 @@
     
 ## Description:
 
-This project generates readme files using node.js
+This project created ReadMe files using node.js
     
 ## Table of Contents:
     
@@ -27,7 +27,7 @@ This project generates readme files using node.js
     
 ## Installation:
 
-npm install
+npm i
     
 ## Usage:
 
@@ -43,7 +43,7 @@ everything
     
 ## Tests:
 
-npm tests
+npm test
     
 ## Questions
 
