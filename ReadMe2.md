@@ -3,27 +3,27 @@
     
 ## Description:
 
-This project created ReadMe files using node.js
+generates ReadME files
     
 ## Table of Contents:
     
 
-* [Installation]<a href="#installation"></a>
+* [Installation](#installation)
     
 
-* [Usage]<a href="#usage"></a>
+* [Usage](#usage)
     
 
-* [License]<a href="#license"></a> 
+* [License](#license)
     
 
-* [Contributing]<a href="#contributing"></a> 
+* [Contributing](#contributing)
     
 
-* [Tests]<a href="#tests"></a> 
+* [Tests](#tests)
     
 
-* [Questions]<a href="#questions"></a> 
+* [Questions](#questions)
     
 ## Installation:
 
@@ -35,7 +35,7 @@ nothing
     
 ## License:
 
- https://img.shields.io/badge/license-MIT-blue.svg
+ This project is licensed under the MIT license
     
 ## Contributing:
 
@@ -43,11 +43,11 @@ everything
     
 ## Tests:
 
-npm test
+npm run
     
 ## Questions
 
-Username:nickgusd
+Username: nickgusd
 
 https://github.com/nickgusd
 

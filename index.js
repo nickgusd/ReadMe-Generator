@@ -76,21 +76,17 @@ inquirer.prompt([
 ])
 
 .then(function(data) {
-
-
     
-    // var filename = data.name.toLowerCase().split(' ').join('') + ".json";
-    // fs.appendFile("NewReadME.md", JSON.stringify(data, null, '\n'), function(err) {
   
     fs.appendFile("ReadMe2.md", `# ${data.projectname}\n ![Github license](https://img.shields.io/badge/license-${data.license}-blue.svg)         
     \n## Description:\n\n${data.description}
     \n## Table of Contents:
-    \n\n* [Installation]<a href="#installation"></a>
-    \n\n* [Usage]<a href="#usage"></a>
-    \n\n* [License]<a href="#license"></a> 
-    \n\n* [Contributing]<a href="#contributing"></a> 
-    \n\n* [Tests]<a href="#tests"></a> 
-    \n\n* [Questions]<a href="#questions"></a> 
+    \n\n* [Installation](#installation)
+    \n\n* [Usage](#usage)
+    \n\n* [License](#license)
+    \n\n* [Contributing](#contributing)
+    \n\n* [Tests](#tests)
+    \n\n* [Questions](#questions)
     \n## Installation:\n\n${data.dependencies}
     \n## Usage:\n\n${data.repo}
     \n## License:\n\n This project is licensed under the ${data.license} license
@@ -111,16 +107,16 @@ inquirer.prompt([
 
 
 
-// function to write README file
-function writeToFile(fileName, data) {
+// // function to write README file
+// function writeToFile(fileName, data) {
 
 
-}
+// }
 
-// function to initialize program
-function init() {
-    // console.log("node index.js")
-}
+// // function to initialize program
+// function init() {
+//     // console.log("node index.js")
+// }
 
-// function call to initialize program
-init();
+// // function call to initialize program
+// init();
