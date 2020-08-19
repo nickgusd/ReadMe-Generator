@@ -89,7 +89,7 @@ inquirer.prompt([
     \n## Usage:\n\n${data.repo}
     \n## License:\n\n This project is licensed under the ${data.license} license
     \n## Contributing:\n\n${data.contribution}
-    \n## Tests:\n\nTo run tests, run the following command\n\n${data.tests}
+    \n## Tests:\n\nTo run tests, run the following command:\n\n${data.tests}
     \n## Questions\n\nUsername: ${data.username}\n\nhttps://github.com/${data.username}\n\nIf you have any additional questions please reach out to me at ${data.email} 
     `, function(err) {
   
