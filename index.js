@@ -80,15 +80,15 @@ inquirer.prompt([
     // var filename = data.name.toLowerCase().split(' ').join('') + ".json";
     // fs.appendFile("NewReadME.md", JSON.stringify(data, null, '\n'), function(err) {
   
-    fs.appendFile("ReadMe2.md", `# ${data.projectname}\n [![Github license](https://img.shields.io/badge/license-${data.license}-blue.svg)]          
-    \n## Description:\n${data.description}
+    fs.appendFile("ReadMe2.md", `# ${data.projectname}\n ![Github license](https://img.shields.io/badge/license-${data.license}-blue.svg)         
+    \n## Description:\n\n${data.description}
     \n## Table of Contents: 
-    \n## Installation:\n${data.dependencies}
-    \n## Usage:\n${data.repo}
-    \n## License:\n https://img.shields.io/badge/license-${data.license}-blue.svg
-    \n## Contributing:\n${data.contribution}
-    \n## Tests:\n${data.tests}
-    \n## Questions\n Username: ${data.username}\nhttps://github.com/${data.username}\n If you have any additional questions please reach out to me at ${data.email} 
+    \n## Installation:\n\n${data.dependencies}
+    \n## Usage:\n\n${data.repo}
+    \n## License:\n\n https://img.shields.io/badge/license-${data.license}-blue.svg
+    \n## Contributing:\n\n${data.contribution}
+    \n## Tests:\n\n${data.tests}
+    \n## Questions\n\n Username: ${data.username}\n\nhttps://github.com/${data.username}\n\n If you have any additional questions please reach out to me at ${data.email} 
     `, function(err) {
   
       if (err) {
