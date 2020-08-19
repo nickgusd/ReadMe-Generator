@@ -42,8 +42,10 @@ inquirer.prompt([
     name: "license",
     choices: [
       "MIT", 
-      "Apache 2.0", 
-      "BSD 3", 
+      "Apache 2.0",
+      "ISC", 
+      "BSD 3",
+      "GPL 3.0", 
       "none"
     ]
 },
@@ -88,7 +90,7 @@ inquirer.prompt([
     \n## License:\n\n https://img.shields.io/badge/license-${data.license}-blue.svg
     \n## Contributing:\n\n${data.contribution}
     \n## Tests:\n\n${data.tests}
-    \n## Questions\n\n Username: ${data.username}\n\nhttps://github.com/${data.username}\n\n If you have any additional questions please reach out to me at ${data.email} 
+    \n## Questions\n\nUsername:${data.username}\n\nhttps://github.com/${data.username}\n\nIf you have any additional questions please reach out to me at ${data.email} 
     `, function(err) {
   
       if (err) {
