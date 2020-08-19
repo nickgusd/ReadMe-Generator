@@ -42,10 +42,10 @@ inquirer.prompt([
     name: "license",
     choices: [
       "MIT", 
-      "Apache 2.0",
+      "Apache2.0",
       "ISC", 
-      "BSD 3",
-      "GPL 3.0", 
+      "BSD3",
+      "GPL3.0", 
       "none"
     ]
 },
