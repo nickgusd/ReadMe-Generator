@@ -19,6 +19,11 @@ inquirer.prompt([
     name: "email",
     message: "what is your email?"
 },
+{
+    type: "input",
+    name: "url",
+    message: "What is URL to your project?"
+},
 { 
     type: "input",
     name: "projectname",
@@ -75,15 +80,16 @@ inquirer.prompt([
     // var filename = data.name.toLowerCase().split(' ').join('') + ".json";
     // fs.appendFile("NewReadME.md", JSON.stringify(data, null, '\n'), function(err) {
   
-    fs.appendFile("NewReadME.md", `# Title:\n${data.username}
-    \n## email:\n${data.email}
-    \n### Project:\n${data.projectname}
-    \n### Description:\n${data.description}
-    \n#### License:\n${data.license}
-    \n#### Dependencies:\n${data.dependencies}
-    \n##### Tests:\n${data.tests}
-    \n##### Repository:\n${data.repo}
-    \n###### Contributing:\n${data.contribution}`, function(err) {
+    fs.appendFile("ReadMe2.md", `# ${data.projectname}\n [![Github license](https://img.shields.io/badge/license-${data.license}-blue.svg)]          
+    \n## Description:\n${data.description}
+    \n## Table of Contents: 
+    \n## Installation:\n${data.dependencies}
+    \n## Usage:\n${data.repo}
+    \n## License:\n https://img.shields.io/badge/license-${data.license}-blue.svg
+    \n## Contributing:\n${data.contribution}
+    \n## Tests:\n${data.tests}
+    \n## Questions\n Username: ${data.username}\nhttps://github.com/${data.username}\n If you have any additional questions please reach out to me at ${data.email} 
+    `, function(err) {
   
       if (err) {
         return console.log(err);
@@ -91,7 +97,7 @@ inquirer.prompt([
   
       console.log(`${data.username}`)
       
-
+ 
     });
   });
 
@@ -105,7 +111,7 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-    console.log("node index.js")
+    // console.log("node index.js")
 }
 
 // function call to initialize program
