@@ -84,7 +84,13 @@ inquirer.prompt([
   
     fs.appendFile("ReadMe2.md", `# ${data.projectname}\n ![Github license](https://img.shields.io/badge/license-${data.license}-blue.svg)         
     \n## Description:\n\n${data.description}
-    \n## Table of Contents: 
+    \n## Table of Contents:
+    \n\n* [Installation]<a href="#installation"></a>
+    \n\n* [Usage]<a href="#usage"></a>
+    \n\n* [License]<a href="#license"></a> 
+    \n\n* [Contributing]<a href="#contributing"></a> 
+    \n\n* [Tests]<a href="#tests"></a> 
+    \n\n* [Questions]<a href="#questions"></a> 
     \n## Installation:\n\n${data.dependencies}
     \n## Usage:\n\n${data.repo}
     \n## License:\n\n https://img.shields.io/badge/license-${data.license}-blue.svg

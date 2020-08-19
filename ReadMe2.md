@@ -1,15 +1,33 @@
-# Nick's Readme Generator
- ![Github license](https://img.shields.io/badge/license-Apache 2.0-blue.svg)         
+# Nick's ReadMe Generator
+ ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)         
     
 ## Description:
 
-this project generates readme files with node.js
+This project generates readme files using node.js
     
-## Table of Contents: 
+## Table of Contents:
+    
+
+* [Installation]<a href="#installation"></a>
+    
+
+* [Usage]<a href="#usage"></a>
+    
+
+* [License]<a href="#license"></a> 
+    
+
+* [Contributing]<a href="#contributing"></a> 
+    
+
+* [Tests]<a href="#tests"></a> 
+    
+
+* [Questions]<a href="#questions"></a> 
     
 ## Installation:
 
-npm i
+npm install
     
 ## Usage:
 
@@ -17,7 +35,7 @@ nothing
     
 ## License:
 
- https://img.shields.io/badge/license-Apache 2.0-blue.svg
+ https://img.shields.io/badge/license-MIT-blue.svg
     
 ## Contributing:
 
@@ -25,7 +43,7 @@ everything
     
 ## Tests:
 
-npm test
+npm tests
     
 ## Questions
 
